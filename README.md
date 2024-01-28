@@ -3,9 +3,11 @@ Rust reimplemtation of the bsdutils project
 
 Provides command line tools:
 
-- `/usr/bin/logger`: This command is used to add logs to the system log files. It provides a shell command interface to the syslog system log module.
-
+Started:
 - `/usr/bin/renice`: This command is used to change the priority of running processes. It can be used to increase or decrease the nice value of a process.
+
+TODO:
+- `/usr/bin/logger`: This command is used to add logs to the system log files. It provides a shell command interface to the syslog system log module.
 
 - `/usr/bin/script`: This command is used to record a terminal session. The script makes a typescript of everything printed on your terminal.
 
