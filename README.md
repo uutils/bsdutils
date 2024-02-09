@@ -1,5 +1,6 @@
-# procps
-Rust reimplemtation of the bsdutils project
+# bsdutils
+
+Rust reimplementation of the bsdutils project
 
 Provides command line tools:
 
