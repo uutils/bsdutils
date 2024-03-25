@@ -1,3 +1,5 @@
+# bsdutils
+
 [![Crates.io](https://img.shields.io/crates/v/bsdutils.svg)](https://crates.io/crates/bsdutils)
 [![Discord](https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gg/wQVJbvJ)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/uutils/bsdutils/blob/main/LICENSE)
@@ -5,8 +7,7 @@
 
 [![CodeCov](https://codecov.io/gh/uutils/bsdutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/bsdutils)
 
-# bsdutils
-Rust reimplemtation of the bsdutils project
+Rust reimplementation of the bsdutils project
 
 Provides command line tools:
 
