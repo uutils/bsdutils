@@ -7,8 +7,6 @@
 
 [![CodeCov](https://codecov.io/gh/uutils/bsdutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/bsdutils)
 
-# bsdutils
-
 Rust reimplementation of the bsdutils project
 
 Provides command line tools:
