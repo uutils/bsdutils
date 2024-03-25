@@ -1,5 +1,14 @@
 # bsdutils
 
+[![Crates.io](https://img.shields.io/crates/v/bsdutils.svg)](https://crates.io/crates/bsdutils)
+[![Discord](https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat)](https://discord.gg/wQVJbvJ)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/uutils/bsdutils/blob/main/LICENSE)
+[![dependency status](https://deps.rs/repo/github/uutils/bsdutils/status.svg)](https://deps.rs/repo/github/uutils/bsdutils)
+
+[![CodeCov](https://codecov.io/gh/uutils/bsdutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/bsdutils)
+
+# bsdutils
+
 Rust reimplementation of the bsdutils project
 
 Provides command line tools:
@@ -17,3 +26,21 @@ TODO:
 - `/usr/bin/scriptreplay`: This command is used to replay a terminal session that was recorded using the `script` command.
 
 - `/usr/bin/wall`: This command is used to broadcast a message to all users logged into a system. The message can be typed directly into the terminal or read from a file.
+
+## Installation
+
+Ensure you have Rust installed on your system. You can install Rust through [rustup](https://rustup.rs/).
+
+Clone the repository and build the project using Cargo:
+
+```bash
+git clone https://github.com/uutils/bsdutils.git
+cd bsdutils
+cargo build --release
+cargo run --release
+```
+
+
+## License
+
+bsdutils is licensed under the MIT License - see the `LICENSE` file for details
