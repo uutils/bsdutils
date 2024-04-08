@@ -4,7 +4,7 @@
 // file that was distributed with this source code.
 // spell-checker:ignore (words) symdir somefakedir
 
-use crate::common::util::{TestScenario, UCommand};
+use crate::common::util::TestScenario;
 
 #[test]
 fn test_invalid_arg() {
