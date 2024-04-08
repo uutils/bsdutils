@@ -3,6 +3,7 @@
 // For the full copyright and license information, please view the LICENSE
 // file that was distributed with this source code.
 
+#[cfg(not(windows))]
 use libc::PRIO_PROCESS;
 use std::env;
 use std::io::Error;
@@ -28,6 +29,8 @@ pub fn uumain(args: impl uucore::Args) -> UResult<()> {
         process::exit(1);
     });
 
+    // TODO: implement functionality on windows
+    #[cfg(not(windows))]
     if unsafe { libc::setpriority(PRIO_PROCESS, pid.try_into().unwrap(), nice_value) } == -1 {
         eprintln!("Failed to set nice value: {}", Error::last_os_error());
         process::exit(1);
