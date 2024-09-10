@@ -7,6 +7,7 @@ use clap::{crate_version, Arg, Command};
 #[cfg(not(windows))]
 use libc::PRIO_PROCESS;
 use std::env;
+#[cfg(not(windows))]
 use std::io::Error;
 use std::process;
 use uucore::{error::UResult, format_usage, help_about, help_usage};
